@@ -1,0 +1,252 @@
+.Movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.MovieContainer {
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.MovieDark {
+    width: 13vw;
+    background-color: rgba(63, 98, 125, 0.49);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.MovieLight {
+    width: 13vw;
+    background-color: #1d1f21;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.Movie p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Movie:hover {
+    cursor: pointer;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Buttons ul button {
+    display: inline;
+}
+
+.Button, .ActiveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    font-family: Montserrat sans-serif;
+    color: #3c4043;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.ActiveButton {
+    background-image: linear-gradient(#595959, rgba(60, 63, 66, 0.81) 50%);
+    color: white;
+}
+
+.Button:hover {
+    background-image: linear-gradient(#595959, rgba(60, 63, 66, 0.81) 50%);
+    color: white;
+}
+
+.Button:disabled {
+    background: rgba(166, 157, 157, 0.83);
+    cursor: not-allowed;
+    color: rgba(255, 255, 255, 0.79);
+}
+
+.GenreHeaderLight h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #a59d9d;
+    background-color: #1d1f21;
+}
+
+.GenreHeaderDark h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: snow;
+    background-color: rgba(63, 98, 125, 0.49);
+}
+
+.MovieInfoContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InnerContainerDark {
+    width: 100vw;
+    display: flex;
+    background-color: #131415;
+}
+
+.InnerContainerLight {
+    width: 100vw;
+    display: flex;
+    background-color: #9dd5e1;
+}
+
+.Poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39vw;
+    margin-top: 20px;
+    position: relative;
+    flex-direction: column;
+}
+
+.MovieInfoDark {
+    width: 52vw;
+    margin-top: 20px;
+    background-color: #131415;
+    box-shadow: rgba(0, 0, 0, 0.63) 0 22px 70px 4px;
+    border-radius: 15px;
+}
+
+.MovieInfoLight {
+    width: 52vw;
+    margin-top: 20px;
+    background-color: #1aa3c0;
+    box-shadow: rgba(0, 0, 0, 0.63) 0 22px 70px 4px;
+    border-radius: 15px;
+}
+
+.MovieInfoDark .OriginalTitle {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 10px;
+}
+
+.MovieInfoLight .OriginalTitle {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px #07b5dc;
+    margin-left: 10px;
+}
+
+.MovieInfoDark .Info {
+    font-size: 30px;
+    color: #9f9f9f;
+    margin-left: 10px;
+}
+
+.MovieInfoLight .Info {
+    font-size: 30px;
+    color: #b7c9ce;
+    margin-left: 10px;
+}
+
+.Genre span {
+    font-size: 30px;
+    color: rgb(98, 14, 157);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.MovieInfoLight .Genre span {
+    font-size: 30px;
+    color: rgb(1, 60, 100);
+    margin-left: 10px;
+    text-shadow: black;
+    cursor: pointer;
+}
+
+.Info i {
+    font-weight: bold;
+    color: white;
+}
+
+.Genre i {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.StarsRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.StarsRating p {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin: 5px;
+}
+
+.FullPageOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.Spinner {
+    color: snow;
+    font-size: 40px;
+}

@@ -1,0 +1,14 @@
+.Background {
+    background-color: #9dd5e1;
+    width: 100vw;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.MainContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

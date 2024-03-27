@@ -1,0 +1,59 @@
+.Container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.BlockLight {
+    width: 15vw;
+    height: 90vh;
+    background-color: rgb(79, 6, 127);
+    transition: all 0.5s;
+}
+
+.BlockDark {
+    width: 15vw;
+    height: 90vh;
+    background-color: #1aa3c0;
+    transition: all 0.5s;
+
+}
+
+
+.Genres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.BlockDark .Genre {
+    width: 12vw;
+    margin: 5px 0 0 0;
+    background-color: rgba(63, 98, 125, 0.49);
+    border-radius: 10px;
+}
+
+.BlockLight .Genre {
+    width: 12vw;
+    margin: 5px 0 0 0;
+    background-color: #1d1f21;
+    border-radius: 10px;
+}
+
+.Text {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ccf6f6;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}

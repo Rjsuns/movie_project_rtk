@@ -1,0 +1,34 @@
+.Background {
+    background-image: url("../../components/MoviesContainer/images/error.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(-180deg, #da9f01 0%, #fdc701 100%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 1px black;
+    cursor: pointer;
+    position: relative;
+    top: 79.3%;
+    left: 64.3%;
+}
+
+.Error {
+    font-size: 30px;
+    color: #911818;
+    text-align: center;
+    padding-top: 20px;
+}
